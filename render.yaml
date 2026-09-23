@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: sync-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NGROK_ENABLED
+        value: false
+      - key: BOT_TOKEN
+        sync: false
+      - key: OWNER_ID
+        sync: false
+      - key: NOTIF_BOT_TOKEN
+        sync: false
+      - key: NOTIF_CHAT_ID
+        sync: false
+      - key: PAKASIR_PROJECT
+        sync: false
+      - key: PAKASIR_API_KEY
+        sync: false
+      - key: PAKASIR_BASE
+        value: https://app.pakasir.com

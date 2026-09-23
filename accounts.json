@@ -1,0 +1,12 @@
+{
+  "wendi": {
+    "password": "wendi123",
+    "displayName": "wendi",
+    "role": "developer",
+    "uid": "d7e27df25f68d737f7a454b58a97f77c",
+    "createdBy": "system",
+    "createdAt": "2026-09-18T19:06:00.000Z",
+    "trialDuration": "permanent",
+    "trialExpiry": null
+  }
+}
